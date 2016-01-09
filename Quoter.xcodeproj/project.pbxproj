@@ -8,10 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		8A6CB6411C40BD54001F9B27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6CB6401C40BD54001F9B27 /* AppDelegate.swift */; };
-		8A6CB6431C40BD54001F9B27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A6CB6421C40BD54001F9B27 /* Assets.xcassets */; };
 		8A6CB6461C40BD54001F9B27 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A6CB6441C40BD54001F9B27 /* MainMenu.xib */; };
 		8A6CB6511C40BD54001F9B27 /* QuoterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6CB6501C40BD54001F9B27 /* QuoterTests.swift */; };
 		8A6CB65C1C40BD54001F9B27 /* QuoterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6CB65B1C40BD54001F9B27 /* QuoterUITests.swift */; };
+		8A6CB66D1C40C992001F9B27 /* QuotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6CB66B1C40C992001F9B27 /* QuotesViewController.swift */; };
+		8A6CB6711C40CBE4001F9B27 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8A6CB6471C40BD54001F9B27 /* Info.plist */; };
+		8A6CB6731C40CEE0001F9B27 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A6CB6721C40CEE0001F9B27 /* Images.xcassets */; };
+		8A6CB6751C40CF4F001F9B27 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6CB6741C40CF4F001F9B27 /* Quote.swift */; };
+		8A6CB6771C40CF74001F9B27 /* QuotesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A6CB6761C40CF74001F9B27 /* QuotesViewController.xib */; };
+		8A6CB6791C40D0FD001F9B27 /* EventMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6CB6781C40D0FD001F9B27 /* EventMonitor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,7 +39,6 @@
 /* Begin PBXFileReference section */
 		8A6CB63D1C40BD54001F9B27 /* Quoter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quoter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A6CB6401C40BD54001F9B27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8A6CB6421C40BD54001F9B27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A6CB6451C40BD54001F9B27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		8A6CB6471C40BD54001F9B27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8A6CB64C1C40BD54001F9B27 /* QuoterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuoterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,6 +47,11 @@
 		8A6CB6571C40BD54001F9B27 /* QuoterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuoterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A6CB65B1C40BD54001F9B27 /* QuoterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoterUITests.swift; sourceTree = "<group>"; };
 		8A6CB65D1C40BD54001F9B27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A6CB66B1C40C992001F9B27 /* QuotesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuotesViewController.swift; sourceTree = "<group>"; };
+		8A6CB6721C40CEE0001F9B27 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8A6CB6741C40CF4F001F9B27 /* Quote.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
+		8A6CB6761C40CF74001F9B27 /* QuotesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuotesViewController.xib; sourceTree = "<group>"; };
+		8A6CB6781C40D0FD001F9B27 /* EventMonitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventMonitor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +103,12 @@
 			isa = PBXGroup;
 			children = (
 				8A6CB6401C40BD54001F9B27 /* AppDelegate.swift */,
-				8A6CB6421C40BD54001F9B27 /* Assets.xcassets */,
+				8A6CB6781C40D0FD001F9B27 /* EventMonitor.swift */,
+				8A6CB66B1C40C992001F9B27 /* QuotesViewController.swift */,
+				8A6CB6761C40CF74001F9B27 /* QuotesViewController.xib */,
+				8A6CB6721C40CEE0001F9B27 /* Images.xcassets */,
 				8A6CB6441C40BD54001F9B27 /* MainMenu.xib */,
+				8A6CB6741C40CF4F001F9B27 /* Quote.swift */,
 				8A6CB6471C40BD54001F9B27 /* Info.plist */,
 			);
 			path = Quoter;
@@ -181,6 +194,7 @@
 		8A6CB6351C40BD54001F9B27 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0720;
 				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Avijeet Sachdev";
@@ -223,7 +237,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A6CB6431C40BD54001F9B27 /* Assets.xcassets in Resources */,
+				8A6CB6711C40CBE4001F9B27 /* Info.plist in Resources */,
+				8A6CB6771C40CF74001F9B27 /* QuotesViewController.xib in Resources */,
+				8A6CB6731C40CEE0001F9B27 /* Images.xcassets in Resources */,
 				8A6CB6461C40BD54001F9B27 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -250,6 +266,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A6CB6411C40BD54001F9B27 /* AppDelegate.swift in Sources */,
+				8A6CB6751C40CF4F001F9B27 /* Quote.swift in Sources */,
+				8A6CB66D1C40C992001F9B27 /* QuotesViewController.swift in Sources */,
+				8A6CB6791C40D0FD001F9B27 /* EventMonitor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
