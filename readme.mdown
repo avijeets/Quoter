@@ -1,0 +1,6 @@
+Quoter
+====
+
+This project was simple transition into learning more OSX than iOS with Swift 2.0. 
+
+![quoter](https://raw.githubusercontent.com/avijeets/Quoter/master/quote.png)
